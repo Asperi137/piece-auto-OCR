@@ -1,14 +1,23 @@
 {
-  "name": "code",
+  "name": "site-web",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "http-server"
   },
-  "author": "",
+  "author": "jerome raisch",
   "license": "ISC",
   "dependencies": {
     "http-server": "^14.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asperi137/piece-auto-OCR.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Asperi137/piece-auto-OCR/issues"
+  },
+  "homepage": "https://github.com/Asperi137/piece-auto-OCR#readme",
+  "description": ""
 }

@@ -11,14 +11,46 @@
 			<img src="images/logo-les-bonnes-pieces.png" alt="LOGO">
 			<h1>Les Bonnes Pièces</h1>
 		</header>
+
 		<main>
 			<!-- Menu de recherche -->
 			<section class="filtres">
+				<h3>Données</h3>	
+				<button class="btn-maj">Mettre à jour les pieces</button>
 				<h3>Filtres</h3>
-			</section>
+				<button class="btn-trier">Trier par prix croissant</button>
+				<button class="btn-trier-decroissant">Trier par prix décroissant</button>
+				<button class="btn-filtrer-abordable">Filtrer les pièces non abordables</button>
+				<button class="btn-filtrer-description">Filtrer les pieces sans déscription</button>
+				<p>Prix maximum :</p>
+				<input type="range" id="prix-max" min="0" max="60" step="5" title="prix-max">
+				<hr>
 
+				<h3>Ajouter un avis</h3>
+				<form class="formulaire-avis">
+					Identifiant de la pièce :<br>
+					<input title="piece-id" type="number" name="piece-id"><br>
+					Nom d'utilisateur :<br>
+					<input title="utilisateur" type="text" name="utilisateur"><br>
+					Avis :<br>
+					<input title="commentaire" type="text" name="commentaire"><br>
+					Nombre d'étoiles :<br>
+					<input title="nbEtoiles" type="number" name="nbEtoiles" min="0" max ="5" value="0">
+					<button class="btn-envoyer">Envoyer</button>
+				</form>
+			</section>
 			<!-- Fiches produits -->
 			<section class="fiches">
+				
+				<div>
+					<div class="abordables">
+						<p>Pièces abordables : </p>	
+					</div>
+					<div class="disponible">
+						<p>Pièces disponibles : </p>
+					</div>
+				</div>
+			
 			</section>
 		</main>
 	</body>
